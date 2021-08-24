@@ -1,0 +1,14 @@
+
+
+.navbar-toggle>span{background-color:#fff;}
+.navbar-brand{background-color:#337ab7;color:#fff;}
+.navbar-brand:hover{background-color:#fff;color:#337ab7;}
+.nav li a {
+    color:#fff;
+    font-weight: bold;
+}
+.nav li a:hover {
+    background-color: #fff;
+    color:#337ab7;
+    font-weight: bold;
+}
