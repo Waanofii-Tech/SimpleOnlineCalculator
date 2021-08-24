@@ -52,9 +52,15 @@
 			
 			
 			if($stmt->execute()){
-				$_SESSION['success'] = "You have successfully created an account";
-
-				header('location: register.php');
+				
+				$_SESSION['login']=true;
+				$_SESSION['username']=$_POST['username'];
+				$_SESSION['start']=10;
+				$_SESSION['offset']=0;
+				$_SESSION['disableprev']=true;
+				$_SESSION['disablenext']=false;
+				$_SESSION['selectedoption']=10;
+				header('location:calculator.php');
 			}
 		}
 		
