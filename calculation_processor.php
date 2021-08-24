@@ -2,7 +2,7 @@
     session_start();
     $byuser = $_SESSION['username'];
     require_once 'dbcon.php';
-    // error_reporting(E_ALL ^ E_WARNING);
+    error_reporting(0);
     $calculate = $_POST['expressionData'];
     eval('$computed = ' . $calculate . ';');
     $evaluated = $computed;
