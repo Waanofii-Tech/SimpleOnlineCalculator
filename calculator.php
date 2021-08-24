@@ -12,7 +12,7 @@ if(!$_SESSION['login']){
 		<link rel="shortcut icon" type="image/png" href="img/fav-icon.png"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<title>Login</title>
+		<title>Calculator</title>
 	</head>
 <body>
 <nav class="navbar bg-primary">
