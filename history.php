@@ -1,5 +1,5 @@
-
 <?php 
+error_reporting(0);
 session_start();
     $start = $_SESSION['start'];
     $offset = $_SESSION['offset'];
