@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php 
+error_reporting(0);
 session_start();
 ?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
@@ -19,8 +20,7 @@ session_start();
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>                        
 			</button>
-			<a class="navbar-brand" href="index.php">
-			 Online Calculator</a>
+			<a class="navbar-brand" href="index.php">Online Calculator</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">

@@ -1,5 +1,4 @@
 <?php
-	//starting the session
 	session_start();
 
 	require_once 'dbcon.php';

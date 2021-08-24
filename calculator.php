@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 session_start();
 if(!$_SESSION['login']){
@@ -6,6 +5,7 @@ if(!$_SESSION['login']){
 	header('location:index.php');
 }
 ?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>

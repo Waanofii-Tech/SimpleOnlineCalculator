@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<?php 
 
+<?php 
 session_start();
     $start = $_SESSION['start'];
     $offset = $_SESSION['offset'];
@@ -20,6 +19,7 @@ $stmt->execute();
 // $row = $stmt->fetch();
 
 ?>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
